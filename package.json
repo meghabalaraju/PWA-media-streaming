@@ -1,0 +1,23 @@
+{
+  "name": "awt-project",
+  "version": "1.0.0",
+  "description": "AWT Progressive Web Apps for Media Streaming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.tubit.tu-berlin.de/Progressive-web-application/progressive-web-application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.12.9"
+  }
+}

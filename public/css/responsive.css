@@ -1,0 +1,114 @@
+@media only screen and (min-width: 769px) {
+    #fulltop{
+        display: block;
+        visibility: visible;
+        height: 60px;
+        padding: 8px 14px;
+        border-bottom: 1px solid #d8d8d8;
+
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#acacac));
+        background-image: -webkit-linear-gradient(top, #ffffff, #acacac);
+        background-image: -moz-linear-gradient(top, #ffffff, #acacac);
+        background-image: -ms-linear-gradient(top, #ffffff, #acacac);
+        background-image: -o-linear-gradient(top, #ffffff, #acacac);
+        background-image: linear-gradient(top, #ffffff, #acacac);
+    }
+
+    #userlogin {
+        display: block;
+        float: right;
+        margin-right: 35px;
+        margin-top: 4px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #userlogin .defaultphoto {
+        display: block;
+        float: left;
+        border: 1px solid #ddd;
+        margin-right: 3px;
+    }
+
+    #userlogin a {
+        line-height: 35px;
+    }
+
+    #logomini {
+        display: block;
+        float: left;
+        margin-right: 40px;
+    }
+
+    #sidenav {
+        width: 250px;
+        transition: 0.5s;
+    }
+
+    #page {
+        padding-left: 250px;
+    }
+
+    #topbar {
+        display: none;
+    }
+
+    #closeBtn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #fulltop {
+        display: none;
+    }
+
+    #sidenav {
+    width: 0;
+    transition: 0.5s;
+    z-index: 1000;
+    }
+
+
+    #topbar {
+        display: block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 60px;
+        padding: 0px 6px;
+        padding-top: 10px;
+        text-align: center;
+        border-bottom: 1px solid #677282;
+        background-color: #acacac;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#acacac));
+        background-image: -webkit-linear-gradient(top, #ffffff, #acacac);
+        background-image: -moz-linear-gradient(top, #ffffff, #acacac);
+        background-image: -ms-linear-gradient(top, #ffffff, #acacac);
+        background-image: -o-linear-gradient(top, #ffffff, #acacac);
+        background-image: linear-gradient(top, #ffffff, #acacac);
+        -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5) inset;
+        -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5) inset;
+        box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5) inset;
+    }
+
+    #slidelink {
+        display: block;
+        font-size: 0.01em;
+        line-height: 1.8em;
+        width: 50px;
+        height: 43px;
+        position: relative;
+        top: 2px;
+        left: 10px;
+        background: url('/css/images/menu.png') top left no-repeat;
+        float: left;
+        z-index: 999;
+    }
+
+    #closeBtn {
+        display: block;
+    }
+
+}
+

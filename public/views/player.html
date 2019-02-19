@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>AWT Project</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/demo.css">
+        <link rel="stylesheet" href="../css/controls.css">
+        <link href="../css/fontawesome/css/all.css" rel="stylesheet">
+        <link rel="manifest" href="/manifest.json"/>
+
+        <script src="../js/shaka-player.ui.js"></script>
+        <script src="../js/player.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="videoContainer">
+                <!-- Video -->
+                <video id="video">
+                </video>
+                <!--Video Controls-->
+                <div id="giantPlayButtonContainer" class="overlay">
+                    <!--<button id="giantPlayButton" class="material-icons">play_arrow</button>-->
+                    <span id="giantPlayButton"><i class="fas fa-play fa-7x"></i></span>
+                </div>
+                <div id="controlsContainer">
+                    <!--<div id="controls">-->
+
+                    <span id="playPauseButton" class="videoControls"><i class="fas fa-play"></i></span>
+                    <input id="seekBar" type="range" step="any" min="0" max="1" value="0">
+                    <div id="videoTime" class="videoControlsText">
+                        <span id="currentTime" class="timerText">00:00:00</span>
+                        <span id="totalDuration" class="timerText">/ 00:00:00</span>
+                    </div>
+                    <span id="muteButton" class="videoControls"><i class="fas fa-volume-up"></i></span>
+                    <input id="volumeBar" type="range" step="0.1" min="0" max="1" value="1">
+                    <span id="captionButton" class="videoControls"><i class="far fa-closed-captioning"></i></span>
+                    <span id="resolutionButton" class="videoControls flexItem"><i class="fas fa-cog"></i></span>
+                    <span id="openFullscreenButton" class="videoControls"><i class="fas fa-expand"></i></span>
+                    <span id="closeFullscreenButton" class="videoControls"><i class="fas fa-compress"></i></span>
+                    <span id="downloadButton" class="videoControls"><i class="fas fa-download"></i></span>
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
