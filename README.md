@@ -1,4 +1,4 @@
-# PWATUBE
+# PWA TUBE
 Progressive web application for media streaming is a video streaming application. Shaka Player has been integrated into this application. [Shaka Player](https://github.com/google/shaka-player/) is an open-source JavaScript library for adaptive media.  
 
 ## Installation
