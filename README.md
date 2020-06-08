@@ -10,7 +10,7 @@ To get started:
 
 ## App functionalities
 
-* You can play any vidoe listed in the main page
+* You can play any video listed in the main page
 * You can download the video by using user interface
 * You can see all the downloaded videos at `/download` page
 
